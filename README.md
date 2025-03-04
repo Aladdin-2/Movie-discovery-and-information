@@ -19,12 +19,12 @@ cd budget-manager
 ```
 
 ### 2️⃣ Backend-i İşə Salın
-Backend-in işləməsi üçün **Maven və JDK 17+** lazımdır. Backend-i işə salmaq üçün:
+Backend-in işləməsi üçün **Gradle və JDK 17+** lazımdır. Backend-i işə salmaq üçün:
 ```sh
 cd backend
-mvn spring-boot:run
+gradle bootRun
 ```
-Bu əmrdən sonra **API (http://localhost:8080/aladdin.com/)** ünvanında işləyəcək.
+Bu əmrdən sonra **API (http://localhost:8080/com.aladdin/)** ünvanında işləyəcək.
 
 ---
 
