@@ -1,4 +1,4 @@
-# Film axtarışı və məlumatlandırma sistemi (With OMDB APİ)
+# Film axtarışı və məlumatlandırma sistemi (With OMDB API)
 
 **Film axtarışı və məlumatlandırma sistemi**, film axtarışı üçün hazırlanmış **Spring Boot** əsaslı bir backend sistemidir. Bu sistem istifadəçilərə **Filmləri xarici API vasitəsi ilə axtarmaq**, **Məlumatları uyğun fieldlərlə DB də saxlamaq** və **İstənilən filmə şərh yazmaq** imkanları yaradır.
 
