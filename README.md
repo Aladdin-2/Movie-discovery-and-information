@@ -61,23 +61,10 @@ Ilkin olaraq qeyd etmək istəyirəm ki Büdcə yaratmadan xərc və gəlir yara
 | `/income/delete/{id}`     | DELETE | Müəyyən gəliri silir |
 | `/income/deleteAll`       | DELETE | Bütün gəlirləri silir |
 
-### 📂 Büdcə Endpoints (`aladdin.com/budget/`)
-| Endpoint                  | Metod  | Açıqlama |
-|---------------------------|--------|----------|
-| `/budget/new`             | POST   | Yeni büdcə əlavə edir |
-| `/budget/getAll`          | GET    | Bütün büdcələri gətirir |
-| `/budget/incomeGroup`     | GET    | Gəlir qruplarını qaytarır |
-| `/budget/expenseGroup`    | GET    | Xərc qruplarını qaytarır |
-| `/budget/findById/{id}`   | GET    | Müəyyən büdcəni gətirir |
-| `/budget/delete/All`      | DELETE | Bütün büdcələri silir |
+### 📂 Büdcə Endpoints 
 
 Bütün API sorğuları **JSON formatında** olmalıdır və aşağıdakı nümunəyə uyğun gəlməlidir:
-```json
-{
-  "description": "Maaş",
-  "amount": 5000
-}
-```
+
 Qeyd! 
 Bəzi sorğular məsələn `/expense/filterDate` @RequestParam şəklində yazılır
 
